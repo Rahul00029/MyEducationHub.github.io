@@ -5,18 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Education Hub</title>
     <link rel="icon" type="image/jpg" href="images/logo.jpg">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>My Education Hub</h1>
-        <nav>
-            <a href="#playlist1">Statistical Mechanics</a>
-            <a href="#playlist2">Mechanics(B.Sc 1st year)</a>
-            <a href="#playlist3">Thermodynamics-B.Sc(3rd Sem)</a>
-            <!-- Add more links for additional playlists -->
-        </nav>
-    </header>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <div class="container-fluid">
+            <a><img src="images/logo.jpg" alternate="logo" style="width:2rem; margin-right: 5px;"></a>
+          <h4 class="navbar-brand" href="#">My Education Hub</h4>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#playlist1">Statistical Mechanics</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#playlist2">Mechanics(B.Sc 1st year)</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#playlist3">Thermodynamics-B.Sc(3rd Sem)</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     <main>
         <!-- Playlist 1 -->
         <div id="playlist1" class="playlist">
@@ -180,5 +194,6 @@
     <footer>
       	<p>&copy; 2023 My Education Hub. All rights reserved.</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
